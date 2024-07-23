@@ -1,0 +1,9 @@
+
+//Before
+function getUserData(user: any): any {
+    return {
+name: user.name,
+      age: user.age,
+      status: user.status
+    };
+  }
